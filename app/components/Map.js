@@ -8,7 +8,7 @@ export default function Map({ address }) {
     const [lng, setLng] = useState('');
     const [err, setErr] = useState('');
 
-    const key = '&key=AIzaSyBU0cZx1oWgE0PrVgx7UI-Hu7xA-JQWzlg';
+    const key = '';
     const location = 'address=' + address;
     
     // async function getGeocode() {
